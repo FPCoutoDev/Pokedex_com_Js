@@ -1,0 +1,110 @@
+.grass {
+    background-color: #49d0b0;
+}
+.fire {
+    background-color: #eb6a68;
+}
+.water {
+    background-color: #6bb7cf;
+}
+.bug {
+    background-color: #32623c;
+}
+.normal {
+    background-color:#f7f8d8;
+}
+.grass ol li{
+    background-color: #61e1ca;
+}
+.fire ol li{
+    background-color: #ee7f30;
+}
+.water ol li {
+    background-color: #678fee;
+}
+.bug ol li {
+    background-color: #37934f;
+}
+.normal ol li {
+    background-color: #e6e6bf;
+}
+.electric {
+    background-color: #ffd86f;
+}
+.psychic {
+    background-color: #ff6fa1;
+}
+.rock {
+    background-color: #d4c190;
+}
+.ground {
+    background-color: #e0c068;
+}
+.poison {
+    background-color: #a040a0;
+}
+.ghost {
+    background-color: #705898;
+}
+.dragon {
+    background-color: #7038f8;
+}
+.ice {
+    background-color: #98d8d8;
+}
+.fighting {
+    background-color: #c03028;
+}
+.fairy {
+    background-color: #f9aec7;
+}
+.dark {
+    background-color: #705848;
+}
+.steel {
+    background-color: #b8b8d0;
+}
+.flying {
+    background-color: #a890f0;
+}
+
+/* Agora para os itens da lista (ol li) */
+.electric ol li {
+    background-color: #ffe17c;
+}
+.psychic ol li {
+    background-color: #ff85b3;
+}
+.rock ol li {
+    background-color: #e2d3aa;
+}
+.ground ol li {
+    background-color: #f0d88c;
+}
+.poison ol li {
+    background-color: #b05bb0;
+}
+.ghost ol li {
+    background-color: #8066a3;
+}
+.dragon ol li {
+    background-color: #7d4cf8;
+}
+.ice ol li {
+    background-color: #b0e0e0;
+}
+.fighting ol li {
+    background-color: #d05045;
+}
+.fairy ol li {
+    background-color: #fac2d9;
+}
+.dark ol li {
+    background-color: #8a6d5a;
+}
+.steel ol li {
+    background-color: #d0d0e0;
+}
+.flying ol li {
+    background-color: #b3a6f5;
+}
