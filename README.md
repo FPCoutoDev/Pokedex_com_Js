@@ -45,6 +45,20 @@ Pesquisa pelo nome;
 
 Tema escuro/claro;
 
-Versão responsiva para mobile(*Main já responsiva);
+Versão responsiva para mobile(✅Main já responsiva);
 
 Alternancia com botões entre páginas de detalhes;
+
+✅ Estilização do header e footer com base no tipo do Pokemon;
+
+✅ Mecanismo para evitar não exibição de imagens;
+
+Tela de loading;
+
+✅ Botão para página inicial;
+
+✅ Imagens de pokemons na página de detalhes que redirecionem para suas próprias páginas;
+
+Página para 404.
+
+
