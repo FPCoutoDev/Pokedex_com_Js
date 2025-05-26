@@ -15,7 +15,7 @@ async function loadMoreItens(offset, limit){
             <a href="details.html?id=${pokemon.number}" class="name">${pokemon.name}</a>
             <div class="detail">
                 <ol class="types">
-                    ${pokemon.types.map((type) => `<li class="type">${pokemon.type}</li>`).join("")}
+                    ${pokemon.types.map((type) => `<li class="type">${type}</li>`).join("")}
                 </ol>
     
                 <img class = "imagens" data-normal="${pokemon.photo}" data-shiny="${pokemon.shinyPhoto}" src="${pokemon.photo}" 
