@@ -8,7 +8,7 @@ async function loadItems(params) {
     
 const pokemon = await pokeApi.getPokemonsById(pokemonId);
 const evolution = await pokeApi.getSpeciesById(pokemonId);
-const evolutionHTML = await getEvolutionImages(evolution)
+const evolutionHTML = await getEvolutionImages(evolution);
 const newHtml = `
      <div class="content">
         <div class="pokemon-header">
@@ -53,9 +53,9 @@ const newHtml = `
           <h3>Sprites (visual completo)</h3>
           <div class="sprites">
             <img src="${pokemon.frontPixelPhoto}" alt="Normal" />
-            <img src="${pokemon.backPixelPhoto}" alt="Costas" />
+            ${pokemon.backPixelPhoto == null ? "": `<img src="${pokemon.backPixelPhoto}" alt="Costas"/>`}
             <img src="${pokemon.frontShinyPixelPhoto}" alt="Shiny" />
-            <img src="${pokemon.backShinyPixelPhoto}" alt="Costas Shiny" />
+            ${pokemon.backShinyPixelPhoto == null ? "": `<img src="${pokemon.backShinyPixelPhoto}" alt="Costas"/>`}
           </div>
         </div>
       </div>`
@@ -66,7 +66,7 @@ async function getEvolutionImages(evolution) {
 
 const evolutionsData = await Promise.all(evolution.map(name => pokeApi.getPokemonsById(name)));
 
-  return evolutionsData.map(pokemon => `<li><img src="${pokemon.frontPixelPhoto}" alt="${pokemon.name}">${pokemon.name}</li>`).join('');
+  return evolutionsData.map(pokemon => `<li><img src="${pokemon.frontPixelPhoto}" alt="${pokemon.name}"><a href="details.html?id=${pokemon.name}">${pokemon.name}</a></li>`).join('');
 }
 
 loadItems()
