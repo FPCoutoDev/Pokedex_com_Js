@@ -8,21 +8,14 @@ body {
     align-items: center;
 }
 
-.content {
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
-    background-color: #fff;
-    padding-top: 100px;
-}
 header {
   display: flex;
   justify-content: space-around;
   width: 100%;
   padding: 15px;
-  background: linear-gradient(270deg, #db8888, #e18282, #e1a5a5, #d76d6d, #de9090);
+  background: linear-gradient(270deg,red, #db8888, #e18282, #e1a5a5, #d76d6d, #de9090), red;
   background-size: 300% 300%;
-  animation: moveGradient 16s ease infinite;
+  animation: moveGradient 8s ease infinite;
 
   /* Extras de visual */
   position: fixed;
@@ -42,17 +35,7 @@ header {
     background-position: 0% 50%;
   }
 }
-#generation {
-    text-align: center;
-    border-radius: 5px;
-    width: 100px;
-    height: 30px;
-    border: 2px solid black;
-}
 
-.content h1 {
-    margin: 0;
-}
 footer {
   display: flex;
   justify-content: space-between;
