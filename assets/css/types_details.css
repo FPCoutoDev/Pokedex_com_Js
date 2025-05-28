@@ -1,12 +1,12 @@
 /* --- NORMAL --- */
 
 #footer {
-    background-size: 400% 400%;
-    animation: footerGradient 6s ease infinite;
+    background-size: 200% 200%;
+    animation: footerGradient 2s ease-in-out infinite;
 }
 #header {
-    background-size: 400% 400%;
-    animation: footerGradient 5s ease infinite;
+    background-size: 110% 140%;
+    animation: footerGradient 2s ease-in-out infinite;
 }
 @keyframes footerGradient {
   0% { background-position: 0% 50%; }
@@ -23,7 +23,7 @@
 
 /* --- FIRE --- */
 .header_fire {
-  background: linear-gradient(270deg, #ffe5b4, #ffc9a0);
+  background: linear-gradient(270deg, #ffe5b4, #a85618);
 }
 .footer_fire {
   background: linear-gradient(270deg, #b34700, #661f00);
@@ -31,7 +31,7 @@
 
 /* --- WATER --- */
 .header_water {
-  background: linear-gradient(270deg, #cde6f9, #a8d0f0);
+  background: linear-gradient(270deg, #cde6f9, #5486ae);
 }
 .footer_water {
   background: linear-gradient(270deg, #205375, #0a2c47);
@@ -39,7 +39,7 @@
 
 /* --- ELECTRIC --- */
 .header_electric {
-  background: linear-gradient(270deg, #fff8cc, #fdf1a4);
+  background: linear-gradient(270deg, #fff8cc, #e5d257);
 }
 .footer_electric {
   background: linear-gradient(270deg, #b49c00, #665c00);
@@ -47,7 +47,7 @@
 
 /* --- GRASS --- */
 .header_grass {
-  background: linear-gradient(270deg, #d2f2c4, #b7e7a3);
+  background: linear-gradient(270deg, #d2f2c4, #8fd172);
 }
 .footer_grass {
   background: linear-gradient(270deg, #3b6e34, #274b24);
@@ -55,7 +55,7 @@
 
 /* --- ICE --- */
 .header_ice {
-  background: linear-gradient(270deg, #e0f7fa, #b2ebf2);
+  background: linear-gradient(270deg, #e0f7fa, #8af1ff);
 }
 .footer_ice {
   background: linear-gradient(270deg, #00796b, #004d40);
@@ -63,7 +63,7 @@
 
 /* --- FIGHTING --- */
 .header_fighting {
-  background: linear-gradient(270deg, #f4c6c6, #e89c9c);
+  background: linear-gradient(270deg, #785252, #712525);
 }
 .footer_fighting {
   background: linear-gradient(270deg, #6b1b1b, #3d0d0d);
@@ -71,7 +71,7 @@
 
 /* --- POISON --- */
 .header_poison {
-  background: linear-gradient(270deg, #e6ccff, #d1a3ff);
+  background: linear-gradient(270deg, #e6ccff, #aa6be8);
 }
 .footer_poison {
   background: linear-gradient(270deg, #5e2d88, #3a1a55);
@@ -79,7 +79,7 @@
 
 /* --- GROUND --- */
 .header_ground {
-  background: linear-gradient(270deg, #f5e1b5, #e6c98f);
+  background: linear-gradient(270deg, #f5e1b5, #caa14f);
 }
 .footer_ground {
   background: linear-gradient(270deg, #7a5e3b, #4e3b27);
@@ -87,7 +87,7 @@
 
 /* --- FLYING --- */
 .header_flying {
-  background: linear-gradient(270deg, #d8eefe, #b6d4f2);
+  background: linear-gradient(270deg, #d8eefe, #abd5ff);
 }
 .footer_flying {
   background: linear-gradient(270deg, #445e93, #2e3e63);
@@ -95,7 +95,7 @@
 
 /* --- PSYCHIC --- */
 .header_psychic {
-  background: linear-gradient(270deg, #f8d3e3, #f5a4cc);
+  background: linear-gradient(270deg, #86264f, #f5a4cc);
 }
 .footer_psychic {
   background: linear-gradient(270deg, #7c1e52, #511134);
@@ -103,7 +103,7 @@
 
 /* --- BUG --- */
 .header_bug {
-  background: linear-gradient(270deg, #e3f8c4, #c9e69d);
+  background: linear-gradient(270deg, #e3f8c4, #c6f382);
 }
 .footer_bug {
   background: linear-gradient(270deg, #4e5c1d, #2f360f);
@@ -111,7 +111,7 @@
 
 /* --- ROCK --- */
 .header_rock {
-  background: linear-gradient(270deg, #e6d5b8, #cbb79b);
+  background: linear-gradient(270deg, #e6d5b8, #a17b47);
 }
 .footer_rock {
   background: linear-gradient(270deg, #6a5e43, #3f382a);
@@ -119,7 +119,7 @@
 
 /* --- GHOST --- */
 .header_ghost {
-  background: linear-gradient(270deg, #ddd1f4, #c3b3e6);
+  background: linear-gradient(270deg, #ddd1f4, #b79def);
 }
 .footer_ghost {
   background: linear-gradient(270deg, #3d3266, #261c40);
@@ -127,7 +127,7 @@
 
 /* --- DRAGON --- */
 .header_dragon {
-  background: linear-gradient(270deg, #d1e4f7, #b0c9e6);
+  background: linear-gradient(270deg, #d1e4f7, #9a73ef);
 }
 .footer_dragon {
   background: linear-gradient(270deg, #3b4e8a, #1e2b54);
@@ -135,7 +135,7 @@
 
 /* --- DARK --- */
 .header_dark {
-  background: linear-gradient(270deg, #d4d4d4, #b0b0b0);
+  background: linear-gradient(270deg, #d4d4d4, #484040);
 }
 .footer_dark {
   background: linear-gradient(270deg, #2d2d2d, #1a1a1a);
@@ -143,7 +143,7 @@
 
 /* --- STEEL --- */
 .header_steel {
-  background: linear-gradient(270deg, #dce1e6, #c3ccd5);
+  background: linear-gradient(270deg, #dce1e6, #becbd7);
 }
 .footer_steel {
   background: linear-gradient(270deg, #5c6e7d, #36424d);
@@ -151,7 +151,7 @@
 
 /* --- FAIRY --- */
 .header_fairy {
-  background: linear-gradient(270deg, #fce4ec, #f8bbd0);
+  background: linear-gradient(270deg, #fce4ec, #ef91b2);
 }
 .footer_fairy {
   background: linear-gradient(270deg, #b35d7c, #7c3b55);
