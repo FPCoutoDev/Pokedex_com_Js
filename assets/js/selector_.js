@@ -47,7 +47,7 @@ window.addEventListener('load', function() {
 
 select.addEventListener('change', function(e) {
 let valorSelecionado = e.target.value; 
-console.log(valorSelecionado)
+console.log(valorSelecionado);
 localStorage.setItem('geracaoSelecionada', valorSelecionado);
 location.reload();
 
